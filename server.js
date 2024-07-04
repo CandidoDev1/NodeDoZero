@@ -62,5 +62,5 @@ import { databaseMemory } from './database-postgres.js';
 
 
 server.listen({
-    port: process.env.PORT ?? 3333,
+    port: process.env.PORT ?? 8080,
 })
