@@ -1,0 +1,30 @@
+POST http://localhost:3333/videos
+//Formato dos dados enviados para o backEnd metas dados
+Content-Type: application/json
+
+{
+    "title":"Teste DevTest",
+    "description":"Testando o Envio em uma DB Nativa Local",
+    "duration": 180
+}
+
+
+###
+PUT http://localhost:3333/videos/a73c12ca-4cb6-4ad7-9e6a-edca195948fd
+Content-Type: application/json
+
+{
+    "title": "Teste32",
+    "description":"Testando o Envio em uma DB Nativa Local",
+    "duration": 180
+}
+
+###
+GET http://localhost:3333/videos
+
+###
+GET http://localhost:3333/videos?search=node
+//Query Parameters
+
+###
+DELETE http://localhost:3333/videos/a73c12ca-4cb6-4ad7-9e6a-edca195948fd
