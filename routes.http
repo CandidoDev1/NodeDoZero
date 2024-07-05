@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://nodedozero-jxmb.onrender.com/videos
 //Formato dos dados enviados para o backEnd metas dados
 Content-Type: application/json
 
